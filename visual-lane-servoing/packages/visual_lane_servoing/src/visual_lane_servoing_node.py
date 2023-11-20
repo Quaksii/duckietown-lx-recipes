@@ -38,7 +38,7 @@ class LaneServoingNode(DTROS):
         self.veh = rospy.get_namespace().strip("/")
 
         # The following are used for the Braitenberg exercise
-        self.v_0 = 0.05  # Forward velocity command
+        self.v_0 = 0.5  # Forward velocity command
 
         # The following are used for scaling
         self.steer_max = -1
